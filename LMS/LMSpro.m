@@ -8,7 +8,7 @@
 % Purpose: Take an input sequence of data and load it according to time
 % steps across rows. 
 % 
-% Input:Sunspots and Financial monthly data.
+% Input:Hero's financial  data.
 % 
 % Output= Nmse , S12 
 %      
@@ -22,18 +22,18 @@
 % Authors Pritesh Rajesh Kanani
 %         
 % 
-% Date- 04/31/2014
+% Date- 01/01/2015
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Divides training and test into two equal halves
-% Linear Autoregression
+% Linear Mean Square
 
 %Preprocessing
 
 clc;
 clear all;
-% S = load('sunspots.dat');
+% S = load('hero.csv');
 
-A= load('findata.txt');
+A= load('hero.csv');
 [M11,N11]=size(A);
 
 
